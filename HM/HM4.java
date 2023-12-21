@@ -12,8 +12,9 @@ public class HM4 {
 
             int a = 3;
             int b = 4;
-            int S = (a * b) / 2;
-            System.out.println(S);
+            int check = (a * b) / 2;
+            System.out.println(check);
+
 
         }
     }
