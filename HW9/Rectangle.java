@@ -10,16 +10,22 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
+
         return width * height;
+
     }
 
     @Override
     public double calculatePerimeter() {
+
         return 2 * (width + height);
+
     }
 
     @Override
     public void paint() {
+
         System.out.println("Painting a rectangle with color: " + getColor());
+
     }
 }

@@ -16,15 +16,20 @@ public class Shape {
     }
 
     public void paint() {
+
         System.out.println("Painting the shape with color: " + color);
+
     }
 
     public String getColor() {
+
         return color;
+
     }
 
     @Override
     public boolean equals(Object obj) {
+
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Shape shape = (Shape) obj;
@@ -33,13 +38,13 @@ public class Shape {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(color);
+
     }
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "color='" + color + '\'' +
-                '}';
+        return "Shape{" +  "color='" + color + '\'' + '}';
     }
 }

@@ -20,6 +20,7 @@ public class Simple {
     }
 
     public double divide(double a, double b) {
+
         if (b == 0) {
 
             System.out.println("Error: Cannot divide by zero");
