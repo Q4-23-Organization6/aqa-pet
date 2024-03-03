@@ -145,6 +145,4 @@ public class ValidateUsersTests {
                 arguments(25)
         );
     }
-
-
 }

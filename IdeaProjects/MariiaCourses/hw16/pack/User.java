@@ -1,7 +1,6 @@
 package pack;
 
 import java.util.*;
-
 public class User {
 
     private String firstName;
